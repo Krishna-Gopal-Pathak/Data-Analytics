@@ -130,8 +130,8 @@ select "Name" from cust1 where "Age"=26
 
 ## Operators
 - Reserved words and characters used with WHERE clause.
-- **Arithematic operators:** Addition(+), Substraction(-), Multiplication(*), Division(/), Modulus(%).
-- **Comparison operators:** Equal(=), Not Equal(!=), Greater Than(>), Greater Than Equals to(>=).
-- **Logical operators:** All, IN, BETWEEN, LIKE, AND, OR, NOT, ANY
-- **Bitwise operator:** Bitwise AND(&), Bitwise OR(|)
+  - **Arithematic operators:** Addition(+), Substraction(-), Multiplication(*), Division(/), Modulus(%).
+  - **Comparison operators:** Equal(=), Not Equal(!=), Greater Than(>), Greater Than Equals to(>=).
+  - **Logical operators:** All, IN, BETWEEN, LIKE, AND, OR, NOT, ANY
+  - **Bitwise operator:** Bitwise AND(&), Bitwise OR(|)
 
