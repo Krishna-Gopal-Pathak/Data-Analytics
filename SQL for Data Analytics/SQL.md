@@ -43,4 +43,13 @@ A database is a system that allows users to store and organize data.
   - String: char, varchar, etc.
   - Numeric: int, float, bool, etc
   - date and time
+ 
+## Commonly Used Data Type
+- **int:** specify integer value. 
+- **float:** specify decimal value.
+- **bool:** specify boolean value true or false.
+- **char:** fixed-length string that contains a number, letter, and special character.
+- **varchar:** variable-length string that contains a number, letter, and special character.
+- **date:** date format YYYY-MM-DD.
+- **datetime:** YYYY-MM-DD hh:mm:ss.
 
