@@ -134,4 +134,23 @@ select "Name" from cust1 where "Age"=26
   - **Comparison operators:** Equal(=), Not Equal(!=), Greater Than(>), Greater Than Equals to(>=).
   - **Logical operators:** All, IN, BETWEEN, LIKE, AND, OR, NOT, ANY
   - **Bitwise operator:** Bitwise AND(&), Bitwise OR(|)
+ 
+## AND
+```bash
+select * from cust1 where "City"='Delhi' AND "Age"<26
+```
 
+## LIMIT clause
+- It specifies the maximum number of rows to return in the result set.
+```bash
+select * from cust1 LIMIT 2;
+```
+
+## ORDER BY
+- Sort Result-set in ASC and DESC
+```bash
+select * from cust1 ORDER BY "Name" ASC;
+```
+```bash
+select * from cust1 ORDER BY "Name" DESC;
+```
