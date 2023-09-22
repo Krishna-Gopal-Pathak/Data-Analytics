@@ -75,8 +75,8 @@ A database is a system that allows users to store and organize data.
 - **Create Index:** Create and retrieve data from the database very quickly.
 
 ## Create Table
-##
 <img src="https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/f8669771-7c8b-4810-b74d-0b031c765044" width="900" height="600" border="1px solid black" />
-##
+
+<img src="https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/c3a9b8cd-7a5f-4196-bcb1-ba651c020dfe" width="900" height="600"/>
 
 
