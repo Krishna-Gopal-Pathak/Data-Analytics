@@ -25,13 +25,13 @@ A database is a system that allows users to store and organize data.
 
 ## Excel Use
 - Small Amount of Data
-- One Time Analysis
+- One-Time Analysis
 - Quick Chart/Graph
 - Untrained Person
 
 ## Database Use
 - Large Amount of Data
-- Store real time data from websites/apps
+- Store real-time data from websites/apps
 - Easily combine with different datasets
 - Automate steps and can re-use
 - Easy and safe access
@@ -39,8 +39,9 @@ A database is a system that allows users to store and organize data.
 - Deep search capabilities
 
 ## Data Type
-- What value column can store.
-  String: char, varchar etc.
+- What value, column can be stored?
+
+  String: char, varchar, etc.
   Numeric: int, float, bool, etc
   date and time
 
