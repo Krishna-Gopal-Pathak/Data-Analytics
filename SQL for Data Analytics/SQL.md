@@ -40,8 +40,7 @@ A database is a system that allows users to store and organize data.
 
 ## Data Type
 - What value, column can be stored?
-
-  String: char, varchar, etc.
-  Numeric: int, float, bool, etc
-  date and time
+  - String: char, varchar, etc.
+  - Numeric: int, float, bool, etc
+  - date and time
 
