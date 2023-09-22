@@ -53,3 +53,32 @@ A database is a system that allows users to store and organize data.
 - **date:** date format YYYY-MM-DD.
 - **datetime:** YYYY-MM-DD hh:mm:ss.
 
+## Primary Key
+- Unique column in a table.
+- Table can have only one primary key, which should be unique and NOT NULL.
+
+## Foreign Key
+- Used to link two or more tables together
+- Table can have any number of foreign keys, and can contain duplicate and NULL values.
+
+## Constraints
+- Constraints are used to specify rules for data in a table.
+- Ensures accuracy and reliability of data in the table.
+
+## Commonly used constraints 
+- **NOT NULL:** Column cannot have NULL value.
+- **UNIQUE:** Columns have unique values.
+- **Primary key:**  Unique and NOT NULL.
+- **Foreign key:**
+- **Check:** satisfies a specific condition.
+- **Default:** If no value is specified for a column then set a default value.
+- **Create Index:** Create and retrieve data from the database very quickly.
+
+## Create Table
+![image](https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/f8669771-7c8b-4810-b74d-0b031c765044)
+<img src="[drawing.jpg](https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/f8669771-7c8b-4810-b74d-0b031c765044)https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/f8669771-7c8b-4810-b74d-0b031c765044" alt="drawing" width="200"/>
+
+
+
+
+
