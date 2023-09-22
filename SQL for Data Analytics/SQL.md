@@ -93,3 +93,9 @@ VALUES
 (1, 'Ram', 26, 'Delhi', 9000),
 (2, 'Kris', 27, 'Goa', 9000);
 ```
+## Update Table
+```bash
+UPDATE cust1
+SET "Name" = 'Krishna', "Age" = 30
+WHERE "ID" = 2;
+```
