@@ -1,9 +1,9 @@
 ## Database
-- Database is a system that allow users to store and organise data.
+- Database is a system that allows users to store and organize data.
 
 ## SQL
 - Relational Database
-**Structure**  
+  **Structure**  
 - Table-based
 
 ## NoSQL
