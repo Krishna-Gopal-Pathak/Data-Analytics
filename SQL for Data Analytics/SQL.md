@@ -78,7 +78,7 @@ A database is a system that allows users to store and organize data.
 ![image](https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/f8669771-7c8b-4810-b74d-0b031c765044)
 
 
-<img src="https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/f8669771-7c8b-4810-b74d-0b031c765044" width="600" height="600" border="1px solid black" />
+<img src="https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/f8669771-7c8b-4810-b74d-0b031c765044" width="900" height="600" border="1px solid black" />
 
 
 
