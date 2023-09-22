@@ -86,16 +86,44 @@ CREATE TABLE cust1
 );
 ```
 
-## Insert Table
+## Insert Values
 ```bash
 INSERT INTO cust1 ("ID", "Name", "Age", "City", "Salary") 
 VALUES 
 (1, 'Ram', 26, 'Delhi', 9000),
 (2, 'Kris', 27, 'Goa', 9000);
 ```
-## Update Table
+## Update Values
 ```bash
 UPDATE cust1
 SET "Name" = 'Krishna', "Age" = 30
 WHERE "ID" = 2;
+```
+## Delete Values
+- Delete existing records in a table.
+```bash
+Delete FROM cust1 WHERE "ID"=2
+```
+
+## Drop
+- Delete a table
+```bash
+DROP TABLE cust1
+```
+
+## Truncate
+- Deletes the data inside a table, but not the table itself.
+```bash
+TRUNCATE TABLE cust1
+```
+
+## Select Statement
+```bash
+select "Name", "Age" from cust1
+```
+
+## Where Clause
+- Extract only those records that fulfilled specified conditions.
+```bash
+select "Name" from cust1 where "Age"=26
 ```
