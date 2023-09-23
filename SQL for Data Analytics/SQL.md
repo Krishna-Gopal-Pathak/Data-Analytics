@@ -343,7 +343,7 @@ CREATE TABLE payment
     ```        
   - **DOY**             //day of year
     ```bash
-    SELECT EXTRACT(DOW FROM payment_date) AS Year from payment
+    SELECT EXTRACT(DOY FROM payment_date) AS Year from payment
     ```  
              
  
