@@ -220,6 +220,27 @@ CSV HEADER;
 - Performs calculation on multiple values and returns single value.
 
   - **COUNT()**
+  - **SUM()**
+  - **AVG()**
+  - **MAX()**
+  - **MIN()**
+  - **ROUND()**
+
+**Create Database**
+```bash
+CREATE TABLE payment
+(
+	customer_id int8 primary key,
+	amount numeric,
+	mode varchar(50),
+	payment_date DATE
+);
+```
+**Import CSV file**
+![image](https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/7d61dc41-df5d-4c13-9321-602cb27d1c24)
+
+
+  - **COUNT()**
     ```bash
     SELECT count(*) from payment
     ```
