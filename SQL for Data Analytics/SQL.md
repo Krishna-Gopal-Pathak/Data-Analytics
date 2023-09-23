@@ -273,6 +273,16 @@ CREATE TABLE payment
 ## GROUP BY Statement
 - Used with aggregate function **COUNT()**, **SUM()**, **AVG()**, **MAX()**, **MIN()** 
 - GROUP BY statement group rows that have the same values.
+  ```bash
+  SELECT mode, SUM(amount) 
+  FROM payment
+  GROUP BY mode
+  ```
 
-
+  ```bash
+  SELECT mode, SUM(amount) AS Total 
+  FROM payment
+  GROUP BY mode
+  ORDER BY Total ASC
+  ```
     
