@@ -154,3 +154,8 @@ select * from cust1 ORDER BY "Name" ASC;
 ```bash
 select * from cust1 ORDER BY "Name" DESC;
 ```
+
+## How to import CSV file to SQL
+**Demo.csv** file
+![image](https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/453a0af3-c809-4ec1-946e-9516b1c7cf6e)
+
