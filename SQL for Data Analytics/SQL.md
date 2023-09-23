@@ -388,9 +388,14 @@ ON p.customer_id=c.customer_id
 ## SELF JOIN
 - Comparing values in a column of rows with the same table.
 
-
 <img src="https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/b6ccacc8-352a-4fa2-ba73-d2512b455b15" width="600" background-size="cover"/>
 
 <img src="https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/47d94065-efe1-4e86-af53-f4a5349b9577" width="600" background-size="cover"/>
 
 
+## UNION
+- The UNION clause in SQL is used to combine the result sets of two or more SELECT statements into a single result set.
+
+**Key points to note about the UNION clause:**
+- The number and order of columns selected in each SELECT statement within the UNION must match.
+- The data types of corresponding columns in each SELECT statement must be compatible.
