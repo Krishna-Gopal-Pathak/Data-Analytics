@@ -303,3 +303,17 @@ CREATE TABLE payment
   HAVING SUM(amount) >= 100 AND SUM(amount) <= 200
   ORDER BY Total ASC
   ```
+  
+## TIMESTAMP
+- **TIME:** HH:Mi:SS
+- **DATE:** YYYY-MM-DD
+- **YEAR:** YYYY or YY
+- **TIMESTAMP:** YYYY-MM-DD HH:Mi:SS
+- **TIMESTAMPTZ:** Contain date, time and time zone
+
+## TIMESTAMP functions/operators
+- SHOW TIMEZONE
+- SELECT NOW()
+- SELECT TIMEOFDAY()
+- SELECT CURRENT_TIME
+- SELECT CURRENT_DATE
