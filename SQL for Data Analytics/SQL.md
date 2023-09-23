@@ -361,4 +361,8 @@ CREATE TABLE payment
 SELECT * from payment AS p INNER JOIN customer AS c ON p.customer_id=c.customer_id
 ```
 
-
+**LEFT JOIN**
+- Return all records from the left table and the matched table from the right table.
+ ```bash
+SELECT * from payment AS p INNER JOIN customer AS c ON p.customer_id=c.customer_id
+```
