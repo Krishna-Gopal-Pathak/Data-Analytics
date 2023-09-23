@@ -219,9 +219,9 @@ CSV HEADER;
 - Used with **GROUP BY** and **SELECT** statement.
 - Performs calculation on multiple values and returns single value.
 
-  - COUNT()**
-  - SUM()**
-  - AVG()**
-  - MAX()**
-  - MIN()**
-  - ROUND()**
+  - **COUNT()**
+  - **SUM()**
+  - **AVG()**
+  - **MAX()**
+  - **MIN()**
+  - **ROUND()**
