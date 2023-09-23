@@ -237,6 +237,7 @@ CREATE TABLE payment
 );
 ```
 **Import CSV file**
+
 ![image](https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/7d61dc41-df5d-4c13-9321-602cb27d1c24)
 
 
