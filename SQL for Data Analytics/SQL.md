@@ -270,7 +270,9 @@ CREATE TABLE payment
     SELECT ROUND(AVG(amount), 2) from payment
     ```
 
-
+## GROUP BY Statement
+- Used with aggregate function **COUNT()**, **SUM()**, **AVG()**, **MAX()**, **MIN()** 
+- GROUP BY statement group rows that have the same values.
 
 
     
