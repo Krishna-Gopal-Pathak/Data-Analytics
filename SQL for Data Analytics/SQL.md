@@ -160,3 +160,15 @@ select * from cust1 ORDER BY "Name" DESC;
 
 ![image](https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/453a0af3-c809-4ec1-946e-9516b1c7cf6e)
 
+**Create a Database with Excel data-header name**
+```bash
+CREATE TABLE cust1
+(
+	customer_id int8 primary key,
+	first_name varchar(50),
+	last_name varchar(50),
+	email varchar(100),
+	address_id int8
+);
+```
+
