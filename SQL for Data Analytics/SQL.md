@@ -317,3 +317,18 @@ CREATE TABLE payment
 - SELECT TIMEOFDAY()
 - SELECT CURRENT_TIME
 - SELECT CURRENT_DATE
+
+## EXTRACT function
+- Extracts a part from a given date value.
+- **Syntax:** SELECT EXTRACT(MONTH FROM date_field) FROM Table
+  - YEAR
+  - QUARTER
+  - MONTH
+  - WEEK
+  - DAY
+  - HOUR
+  - MINUTE
+  - DOW         //day of week
+  - DOY         //day of year
+
+
