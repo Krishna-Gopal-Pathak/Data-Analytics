@@ -327,12 +327,25 @@ CREATE TABLE payment
     ```
   - **QUARTER**
   - **MONTH**
+    ```bash
+    SELECT EXTRACT(MONTH FROM payment_date) AS Year from payment
+    ```
   - **WEEK**
   - **DAY**
+    ```bash
+    SELECT EXTRACT(DAY FROM payment_date) AS Year from payment
+    ```
   - **HOUR**
   - **MINUTE**
-  - **DOW**         //day of week
-  - **DOY**         //day of year
+  - **DOW**             //day of week
+    ```bash
+    SELECT EXTRACT(DOW FROM payment_date) AS Year from payment
+    ```        
+  - **DOY**             //day of year
+    ```bash
+    SELECT EXTRACT(DOW FROM payment_date) AS Year from payment
+    ```  
+             
  
 
 
