@@ -401,9 +401,16 @@ ON p.customer_id=c.customer_id
 - The data types of corresponding columns in each SELECT statement must be compatible.
 
 ```bash
-SELECT cust_name, cust_name
+SELECT cust_name, cust_amount
 FROM uniona
 UNION
-SELECT cust_name, cust_name
+SELECT cust_name, cust_amount
+FROM unionb
+```
+```bash
+SELECT cust_name, cust_amount
+FROM uniona
+UNION ALL
+SELECT cust_name, cust_amount
 FROM unionb
 ```
