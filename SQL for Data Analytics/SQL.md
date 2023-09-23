@@ -220,8 +220,35 @@ CSV HEADER;
 - Performs calculation on multiple values and returns single value.
 
   - **COUNT()**
+    ```bash
+    SELECT count(*) from payment
+    ```
+     ```bash
+    SELECT count(amount) from payment
+    ```
   - **SUM()**
+    ```bash
+    SELECT SUM(amount) from payment
+    ```
   - **AVG()**
+    ```bash
+    SELECT AVG(amount) from payment
+    ```
+   
   - **MAX()**
+    ```bash
+    SELECT MAX(amount) from payment
+    ```
   - **MIN()**
+    ```bash
+    select LENGTH(first_name), first_name from customer
+    ```
   - **ROUND()**
+    ```bash
+    SELECT ROUND(AVG(amount), 2) from payment
+    ```
+
+
+
+
+    
