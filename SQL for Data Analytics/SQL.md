@@ -124,6 +124,7 @@ select "Name", "Age" from cust1
 
 ## Where Clause
 - Extract only those records that fulfilled specified conditions.
+- Used with SELECT statement.
 ```bash
 select "Name" from cust1 where "Age"=26
 ```
