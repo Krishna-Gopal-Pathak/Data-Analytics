@@ -287,3 +287,19 @@ CREATE TABLE payment
   ORDER BY Total ASC
   ```
     
+## HAVING Clause
+- Used to apply a filter on the result of GROUP BY based on a specified condition.
+  ```bash
+  SELECT mode, SUM(amount) AS Total 
+  FROM payment
+  GROUP BY mode
+  HAVING SUM(amount) >= 100 
+  ORDER BY Total ASC
+  ```
+  ```bash
+  SELECT mode, SUM(amount) AS Total 
+  FROM payment
+  GROUP BY mode
+  HAVING SUM(amount) >= 100 AND SUM(amount) <= 200
+  ORDER BY Total ASC
+  ```
