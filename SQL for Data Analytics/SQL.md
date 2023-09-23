@@ -393,12 +393,13 @@ ON p.customer_id=c.customer_id
 <img src="https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/47d94065-efe1-4e86-af53-f4a5349b9577" width="600" background-size="cover"/>
 
 
-## UNION
+## UNION and UNION ALL
 - The UNION clause in SQL is used to combine the result sets of two or more SELECT statements into a single result set.
 
 **Key points to note about the UNION clause:**
 - The number and order of columns selected in each SELECT statement within the UNION must match.
 - The data types of corresponding columns in each SELECT statement must be compatible.
+- The UNION operator removes duplicate rows from the combined result set by default. If you want to include duplicate rows, you can use UNION ALL.
 
 ```bash
 SELECT cust_name, cust_amount
@@ -414,3 +415,5 @@ UNION ALL
 SELECT cust_name, cust_amount
 FROM unionb
 ```
+<img src="https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/faaaf8fa-b489-4f11-af56-d4c9876fec56" width="600" background-size="cover"/>
+
