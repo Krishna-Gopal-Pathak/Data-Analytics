@@ -172,3 +172,11 @@ CREATE TABLE cust1
 );
 ```
 
+**Import Excel**
+```bash
+COPY customer(customer_id,first_name,last_name,email,address_id)
+FROM 'D:\Repo\Data-Analytics\SQL for Data Analytics\DemoData.csv'
+DELIMITER ','
+CSV HEADER;
+```
+
