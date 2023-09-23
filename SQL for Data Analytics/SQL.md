@@ -384,3 +384,8 @@ from payment AS p
 FULL OUTER JOIN customer AS c 
 ON p.customer_id=c.customer_id
 ```
+
+## SELF JOIN
+- Comparing values in a column of rows with the same table.
+
+![image](https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/b6ccacc8-352a-4fa2-ba73-d2512b455b15)
