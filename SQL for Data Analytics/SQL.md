@@ -322,6 +322,9 @@ CREATE TABLE payment
 - Extracts a part from a given date value.
 - **Syntax:** SELECT EXTRACT(MONTH FROM date_field) FROM Table
   - YEAR
+    ```bash
+    SELECT EXTRACT(YEAR FROM payment_date) AS Year from payment
+    ```
   - QUARTER
   - MONTH
   - WEEK
@@ -330,5 +333,7 @@ CREATE TABLE payment
   - MINUTE
   - DOW         //day of week
   - DOY         //day of year
+ 
+
 
 
