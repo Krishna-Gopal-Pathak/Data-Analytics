@@ -345,8 +345,19 @@ CREATE TABLE payment
     ```bash
     SELECT EXTRACT(DOY FROM payment_date) AS Year from payment
     ```  
-             
- 
 
+## JOIN
+- JOIN clause is used to combine data from two or more tables, based on a related column between them.
+
+## Types of Joins
+- INNER JOIN
+- LEFT JOIN
+- RIGHT JOIN
+- FULL JOIN
+
+**INNER JOIN**
+ ```bash
+SELECT * from payment AS p INNER JOIN customer AS c ON p.customer_id=c.customer_id
+```
 
 
