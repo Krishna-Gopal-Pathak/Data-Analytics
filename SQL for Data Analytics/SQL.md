@@ -372,3 +372,9 @@ SELECT * from customer AS c LEFT JOIN payment AS p ON c.customer_id=p.customer_i
  ```bash
 SELECT * from payment AS p RIGHT JOIN customer AS c ON p.customer_id=c.customer_id
 ```
+
+**FULL JOIN**
+- Return all records when there is a match either from the right table or the left table.
+ ```bash
+SELECT * from payment AS p RIGHT JOIN customer AS c ON p.customer_id=c.customer_id
+```
