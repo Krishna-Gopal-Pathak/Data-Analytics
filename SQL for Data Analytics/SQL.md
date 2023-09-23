@@ -356,7 +356,7 @@ CREATE TABLE payment
 - FULL JOIN
 
 **INNER JOIN**
-Return records that have matching values in both tables.
+- Return records that have matching values in both tables.
  ```bash
 SELECT * from payment AS p INNER JOIN customer AS c ON p.customer_id=c.customer_id
 ```
