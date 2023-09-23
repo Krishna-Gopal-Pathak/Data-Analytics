@@ -390,7 +390,7 @@ ON p.customer_id=c.customer_id
 
 ![image](https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/b6ccacc8-352a-4fa2-ba73-d2512b455b15)
 
-<img src="https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/47d94065-efe1-4e86-af53-f4a5349b9577" width="400" background-size="cover"/>
+<img src="https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/47d94065-efe1-4e86-af53-f4a5349b9577" width="500" background-size="cover"/>
 
 <img src="https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/b6ccacc8-352a-4fa2-ba73-d2512b455b15" width="600" background-size="cover"/>
 
