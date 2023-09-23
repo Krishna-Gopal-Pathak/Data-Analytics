@@ -214,3 +214,14 @@ CSV HEADER;
     ```bash
     select SUBSTRING(first_name, 1, 3), first_name from customer
     ```
+
+## Most Used Aggregate Function
+- Used with **GROUP BY** and **SELECT** statement.
+- Performs calculation on multiple values and returns single value.
+
+  - COUNT()**
+  - SUM()**
+  - AVG()**
+  - MAX()**
+  - MIN()**
+  - ROUND()**
