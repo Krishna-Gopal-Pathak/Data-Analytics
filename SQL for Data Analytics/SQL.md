@@ -180,3 +180,21 @@ DELIMITER ','
 CSV HEADER;
 ```
 
+## Functions in SQL
+- Set of SQL statements to perform a specific task.
+- A function accepts input parameters, performs actions, and then return the result.
+
+## Types of function
+- **System Defined Function:** built in functions eg- rand(), round(), upper(), lower(), count(), sum(), max(), etc.
+- **User-Defined Function:** Once you define a function can call it in the same way as the built-in functions.
+
+## Most Used String Function
+- String functions are used to perform an operation on an input string and return an output string.
+  - **NOW():** returns the current system date and time.
+  - **FORMAT():** used to set the format of a field.
+  - **REPLACE():** Replaces all occurrences of a substring within a string, with a new
+  - **TRIM():** removes leading and trailing spaces (or other specified characters) from
+  - **UPPER()**
+  - **LOWER()**
+  - **LENGTH()**
+  - **SUBSTRING()**
