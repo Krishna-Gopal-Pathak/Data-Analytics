@@ -193,8 +193,23 @@ CSV HEADER;
   - **NOW():** returns the current system date and time.
   - **FORMAT():** used to set the format of a field.
   - **REPLACE():** Replaces all occurrences of a substring within a string, with a new
+    ```bash
+    select REPLACE(first_name, 'Mary', 'Mohan'), first_name, last_name from customer
+    ```
   - **TRIM():** removes leading and trailing spaces (or other specified characters) from
   - **UPPER()**
+    ```bash
+    select UPPER(first_name) from customer
+    ```
   - **LOWER()**
+    ```bash
+    select LOWER(first_name) from customer
+    ```
   - **LENGTH()**
+    ```bash
+    select LENGTH(first_name), first_name from customer
+    ```
   - **SUBSTRING()**
+    ```bash
+    select SUBSTRING(first_name, 1, 3), first_name from customer
+    ```
