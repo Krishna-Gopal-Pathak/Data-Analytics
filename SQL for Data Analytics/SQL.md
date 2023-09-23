@@ -399,3 +399,11 @@ ON p.customer_id=c.customer_id
 **Key points to note about the UNION clause:**
 - The number and order of columns selected in each SELECT statement within the UNION must match.
 - The data types of corresponding columns in each SELECT statement must be compatible.
+
+```bash
+SELECT cust_name, cust_name
+FROM uniona
+UNION
+SELECT cust_name, cust_name
+FROM unionb
+```
