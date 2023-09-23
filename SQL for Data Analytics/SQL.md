@@ -364,5 +364,5 @@ SELECT * from payment AS p INNER JOIN customer AS c ON p.customer_id=c.customer_
 **LEFT JOIN**
 - Return all records from the left table and the matched table from the right table.
  ```bash
-SSELECT * from customer AS p LEFT JOIN payment AS c ON p.customer_id=c.customer_id
+SELECT * from customer AS c LEFT JOIN payment AS p ON c.customer_id=p.customer_id
 ```
