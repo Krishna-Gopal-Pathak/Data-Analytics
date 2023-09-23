@@ -422,3 +422,9 @@ FROM unionb
   
 <img src="https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/faaaf8fa-b489-4f11-af56-d4c9876fec56" width="600" background-size="cover"/>
 
+```bash
+SELECT customer_id, amount
+FROM payment 
+WHERE amount > (SELECT avg(amount) FROM payment)
+```
+
