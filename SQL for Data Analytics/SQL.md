@@ -349,6 +349,9 @@ CREATE TABLE payment
 ## JOIN
 - JOIN clause is used to combine data from two or more tables, based on a related column between them.
 
+  ![image](https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/762748a3-f83d-44e8-9c6e-9d9bffa86f3b)
+
+
 ## Types of Joins
 - INNER JOIN
 - LEFT JOIN
