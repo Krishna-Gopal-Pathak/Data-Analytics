@@ -321,18 +321,18 @@ CREATE TABLE payment
 ## EXTRACT function
 - Extracts a part from a given date value.
 - **Syntax:** SELECT EXTRACT(MONTH FROM date_field) FROM Table
-  - YEAR
+  - **YEAR**
     ```bash
     SELECT EXTRACT(YEAR FROM payment_date) AS Year from payment
     ```
-  - QUARTER
-  - MONTH
-  - WEEK
-  - DAY
-  - HOUR
-  - MINUTE
-  - DOW         //day of week
-  - DOY         //day of year
+  - **QUARTER**
+  - **MONTH**
+  - **WEEK**
+  - **DAY**
+  - **HOUR**
+  - **MINUTE**
+  - **DOW**         //day of week
+  - **DOY**         //day of year
  
 
 
