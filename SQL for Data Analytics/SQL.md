@@ -190,6 +190,7 @@ CSV HEADER;
 
 ## Most Used String Function
 - String functions are used to perform an operation on an input string and return an output string.
+  
   - **NOW():** returns the current system date and time.
   - **FORMAT():** used to set the format of a field.
   - **REPLACE():** Replaces all occurrences of a substring within a string, with a new
