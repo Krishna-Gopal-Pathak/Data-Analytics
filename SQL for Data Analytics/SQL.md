@@ -415,5 +415,10 @@ UNION ALL
 SELECT cust_name, cust_amount
 FROM unionb
 ```
+
+
+## SUB QUERY || Inner Query || Nested Query
+- Subquery allows us to create complex query on the output of another query.
+  
 <img src="https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/faaaf8fa-b489-4f11-af56-d4c9876fec56" width="600" background-size="cover"/>
 
