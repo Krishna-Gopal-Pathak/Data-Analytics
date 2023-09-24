@@ -462,7 +462,10 @@ WHERE amount > (SELECT avg(amount) FROM payment)
    - LAG
    - FIRST_VALUE
    - LAST_VALUE
-     
+ 
+
+**Aggregate** 
+
 <img src="https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/3f102b10-0a98-45d4-9051-7571f4526429" width="600" background-size="cover"/>
 
 ```bash
@@ -486,7 +489,9 @@ FROM windowfunction
 ```
 
 <img src="https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/0fdb03b9-82cc-4b17-81af-2efb0eee646c" width="600" background-size="cover"/>
+**Ranking**
 
+<img src="https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/c5f2bb9c-9016-486c-bc1e-aec6e52af10b" width="600" background-size="cover"/>
 ```bash
 SELECT new_id,
 ROW_NUMBER() OVER(ORDER BY new_id) AS "ROW_NUMBER",
@@ -497,8 +502,6 @@ FROM ranking
 ```
 
 
-
-<img src="https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/c5f2bb9c-9016-486c-bc1e-aec6e52af10b" width="600" background-size="cover"/>
 
 
 
