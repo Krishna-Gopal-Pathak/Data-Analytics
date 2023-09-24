@@ -503,13 +503,27 @@ FROM ranking
 ```
 
 
+**Aggregate**
 
+<img src="https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/50da03a6-0441-4434-ac8d-949a371720a6" width="600" background-size="cover"/>
 
+```bash
+SELECT new_id,
+FIRST_VALUE(new_id) OVER(ORDER BY new_id) AS "FIRST_VALUE",
+LAST_VALUE(new_id) OVER(ORDER BY new_id) AS "LAST_VALUE",
+LEAD(new_id) OVER(ORDER BY new_id) AS "LEAD",
+LAG(new_id) OVER(ORDER BY new_id) AS "LAG"
+FROM ranking
+```
 
+![Screenshot 2023-09-24 162930](https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/10ac3487-c8b0-4185-b2fe-05561002d059)
 
-
-
-
+```bash
+SELECT new_id,
+LEAD(new_id,2) OVER(ORDER BY new_id) AS "LEAD",
+LAG(new_id,2) OVER(ORDER BY new_id) AS "LAG"
+FROM ranking
+```
 
 
 
