@@ -442,7 +442,8 @@ WHERE amount > (SELECT avg(amount) FROM payment)
 
 ## Window Function Types
 - There is no official division of SQL window function into categories.
-- But high level we can divide into three types.
+- But high level we can divide it into three types.
+- 
   **Aggregate**
    - SUM
    - AVG
@@ -463,3 +464,23 @@ WHERE amount > (SELECT avg(amount) FROM payment)
    - LAST_VALUE
      
 <img src="https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/3f102b10-0a98-45d4-9051-7571f4526429" width="600" background-size="cover"/>
+
+```bash
+SELECT new_id, new_cat, 
+SUM(new_id) OVER(PARTITION BY new_cat ORDER BY new_id ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING) AS "Total",
+AVG(new_id) OVER(PARTITION BY new_cat ORDER BY new_id ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING) AS "Average",
+COUNT(new_id) OVER(PARTITION BY new_cat ORDER BY new_id ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING) AS "Count",
+MIN(new_id) OVER(PARTITION BY new_cat ORDER BY new_id ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING) AS "Min",
+MAX(new_id) OVER(PARTITION BY new_cat ORDER BY new_id ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING) AS "Max"
+FROM windowfunction
+```
+
+```bash
+SELECT new_id, new_cat, 
+SUM(new_id) OVER(ORDER BY new_id ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING) AS "Total",
+AVG(new_id) OVER(ORDER BY new_id ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING) AS "Average",
+COUNT(new_id) OVER(ORDER BY new_id ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING) AS "Count",
+MIN(new_id) OVER(ORDER BY new_id ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING) AS "Min",
+MAX(new_id) OVER(ORDER BY new_id ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING) AS "Max"
+FROM windowfunction
+```
