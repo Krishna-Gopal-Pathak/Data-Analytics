@@ -427,5 +427,38 @@ SELECT customer_id, amount
 FROM payment 
 WHERE amount > (SELECT avg(amount) FROM payment)
 ```
+## Window function terms
+- **Window Function:** applies aggregate, ranking and analytic functions over a particular window. EX- sum, avg, row_number.
+- **Expression:** is the name of column that we want the window fuction operated on.
+- **OVER:** is just to signify that this a window.
+- **PARTITION BY:** divides the rows into partition so we can specify which rows to use to compute window function.
+- **ORDER BY:** is used so that we can order the rows within each partition. This is optional. 
+- **ROWS:** is used when we want to further limit the rows within our partition. This is optional. 
 
+
+
+
+
+## Window Function Types
+- There is no official division of SQL window function into categories.
+- But high level we can divide into three types.
+  - **Aggregate**
+   - SUM
+   - AVG
+   - COUNT
+   - MIN
+   - MAX
+
+  - **Ranking**
+   - ROW_NUMBER
+   - RANK
+   - DENSE_RANK
+   - PERCENT_RANK
+
+  - **Value/Analytic**
+   - LEAD
+   - LAG
+   - FIRST_VALUE
+   - LAST_VALUE
+   - 
 <img src="https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/3f102b10-0a98-45d4-9051-7571f4526429" width="600" background-size="cover"/>
