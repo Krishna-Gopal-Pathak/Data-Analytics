@@ -497,8 +497,8 @@ FROM ranking
 ```
 
 
-![Uploading Screenshot 2023-09-24 132759.png…]()
 
+<img src="https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/c5f2bb9c-9016-486c-bc1e-aec6e52af10b" width="600" background-size="cover"/>
 
 
 
