@@ -428,3 +428,4 @@ FROM payment
 WHERE amount > (SELECT avg(amount) FROM payment)
 ```
 
+<img src="https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/3f102b10-0a98-45d4-9051-7571f4526429" width="600" background-size="cover"/>
