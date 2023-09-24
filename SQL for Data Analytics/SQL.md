@@ -540,8 +540,8 @@ FROM payment
 SELECT customer_id, amount, 
 CASE
     WHEN amount>50 THEN 'Expensive Product'
-	WHEN amount=50 THEN 'Moderate Product'
-	ELSE 'Inexpensive Product'
+    WHEN amount=50 THEN 'Moderate Product'
+    ELSE 'Inexpensive Product'
 END AS Product_Status
 FROM payment
 ```
