@@ -484,3 +484,32 @@ MIN(new_id) OVER(ORDER BY new_id ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED 
 MAX(new_id) OVER(ORDER BY new_id ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING) AS "Max"
 FROM windowfunction
 ```
+
+<img src="https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/0fdb03b9-82cc-4b17-81af-2efb0eee646c" width="600" background-size="cover"/>
+
+```bash
+SELECT new_id,
+ROW_NUMBER() OVER(ORDER BY new_id) AS "ROW_NUMBER",
+RANK() OVER(ORDER BY new_id) AS "RANK",
+DENSE_RANK() OVER(ORDER BY new_id) AS "DENSE_RANK",
+PERCENT_RANK() OVER(ORDER BY new_id) AS "PERCENT_RANK"
+FROM ranking
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
