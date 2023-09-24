@@ -9,6 +9,7 @@ A database is a system that allows users to store and organize data.
 
 ## NoSQL
 - Non-relational Databases
+  
 **Structure**
 - key-value pairs
 - Document-based
@@ -442,23 +443,23 @@ WHERE amount > (SELECT avg(amount) FROM payment)
 ## Window Function Types
 - There is no official division of SQL window function into categories.
 - But high level we can divide into three types.
-  - **Aggregate**
+  **Aggregate**
    - SUM
    - AVG
    - COUNT
    - MIN
    - MAX
 
-  - **Ranking**
+  **Ranking**
    - ROW_NUMBER
    - RANK
    - DENSE_RANK
    - PERCENT_RANK
 
-  - **Value/Analytic**
+  **Value/Analytic**
    - LEAD
    - LAG
    - FIRST_VALUE
    - LAST_VALUE
-   - 
+     
 <img src="https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/3f102b10-0a98-45d4-9051-7571f4526429" width="600" background-size="cover"/>
