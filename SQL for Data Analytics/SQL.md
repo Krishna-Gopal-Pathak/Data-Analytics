@@ -526,6 +526,8 @@ FROM ranking
 
 ## CASE Expression
 - CASE expression goes through the condition and returns a value when the first condition is met. If no conditions are true, it returns the value in the ELSE clause.
+
+**General Case**
 ```bash
 SELECT customer_id, amount, 
 CASE
@@ -547,7 +549,17 @@ FROM payment
 ```
 
 
+**Case Expression**
 
+```bash
+SELECT customer_id,amount,
+CASE amount
+WHEN 90 THEN 'PRO'
+WHEN 80 THEN 'light'
+ELSE 'Regular'
+END AS Status 
+FROM payment
+```
 
 
 
