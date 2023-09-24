@@ -561,7 +561,20 @@ END AS Status
 FROM payment
 ```
 
+## Common Table Expression
 
+```bash
+WITH my_cte AS(
+SELECT *, 
+AVG(amount) OVER(ORDER BY p.customer_id) AS "Average",
+COUNT(address_id) OVER(ORDER BY c.customer_id) AS "Count"
+FROM payment AS p
+INNER JOIN customer AS c
+ON p.customer_id=c.customer_id
+)
+SELECT first_name, last_name
+FROM my_cte
+```
 
 
 
