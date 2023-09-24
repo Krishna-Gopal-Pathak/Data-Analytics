@@ -524,6 +524,36 @@ LAG(new_id,2) OVER(ORDER BY new_id) AS "LAG"
 FROM ranking
 ```
 
+## CASE Expression
+- CASE expression goes through the condition and returns a value when the first condition is met. If no conditions are true, it returns the value in the ELSE clause.
+```bash
+SELECT customer_id, amount, 
+CASE
+    WHEN amount>50 THEN 'Expensive Product'
+	WHEN amount=50 THEN 'Moderate Product'
+	ELSE 'Inexpensive Product'
+END AS Product_Status
+FROM payment
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
