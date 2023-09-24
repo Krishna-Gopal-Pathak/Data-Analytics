@@ -515,8 +515,7 @@ LEAD(new_id) OVER(ORDER BY new_id) AS "LEAD",
 LAG(new_id) OVER(ORDER BY new_id) AS "LAG"
 FROM ranking
 ```
-
-![Screenshot 2023-09-24 162930](https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/10ac3487-c8b0-4185-b2fe-05561002d059)
+<img src="https://github.com/Krishna-Gopal-Pathak/Data-Analytics/assets/142927819/10ac3487-c8b0-4185-b2fe-05561002d059" width="600" background-size="cover"/>
 
 ```bash
 SELECT new_id,
